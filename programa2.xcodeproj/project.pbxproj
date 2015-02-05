@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DDCE48BE1A825AF0004C67CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCE48BD1A825AF0004C67CC /* main.m */; };
+		DDD017321A82AB59007E30B0 /* EMPREGADO.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD017311A82AB59007E30B0 /* EMPREGADO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DDCE48BA1A825AEF004C67CC /* programa2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = programa2; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCE48BD1A825AF0004C67CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDD017301A82AB59007E30B0 /* EMPREGADO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPREGADO.h; sourceTree = "<group>"; };
+		DDD017311A82AB59007E30B0 /* EMPREGADO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMPREGADO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		DDCE48B11A825AEF004C67CC = {
 			isa = PBXGroup;
 			children = (
+				DDD017301A82AB59007E30B0 /* EMPREGADO.h */,
+				DDD017311A82AB59007E30B0 /* EMPREGADO.m */,
 				DDCE48BC1A825AEF004C67CC /* programa2 */,
 				DDCE48BB1A825AEF004C67CC /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD017321A82AB59007E30B0 /* EMPREGADO.m in Sources */,
 				DDCE48BE1A825AF0004C67CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +238,7 @@
 				DDCE48C31A825AF0004C67CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
